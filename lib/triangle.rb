@@ -4,7 +4,7 @@ class Triangle
   def initialize(a, b, c)
    @a = a 
    @b = b 
-   @c =c
+   @c = c
   end
   
   def kind
@@ -33,8 +33,6 @@ class Triangle
   end
   
   class TriangleError < StandardError
-    def message
-    # "Triangle is illegal."
-    end
+ 
   end
 end
